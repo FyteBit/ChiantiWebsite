@@ -13,9 +13,9 @@ const CardSection = () => {
                 <div className={styles.cardTextContainer}>
                     <div className={`${SFProDisplay.className} ${styles.cardNumber}`}>01</div>
                     <div className={`${Lighthaus.className} ${styles.cardName}`}>
-                        Аперитив -<br className={styles.break}/>
+                        Вечер с <br className={styles.break}/>
                         <span className={`${Lighthaus.className} ${styles.cardNameSpan}`}>
-                            welcome
+                            кьянти
                         </span>
                     </div>
                 </div>
@@ -30,9 +30,9 @@ const CardSection = () => {
                 <div className={styles.cardTextContainer}>
                     <div className={`${SFProDisplay.className} ${styles.cardNumber}`}>02</div>
                     <div className={`${Lighthaus.className} ${styles.cardName}`}>
-                        ужин -<br className={styles.break}/>
+                        Караоке с <br className={styles.break}/>
                         <span className={`${Lighthaus.className} ${styles.cardNameSpan}`}>
-                            концерт
+                            кьянти
                         </span>
                     </div>
                 </div>
@@ -47,9 +47,9 @@ const CardSection = () => {
                 <div className={styles.cardTextContainer}>
                     <div className={`${SFProDisplay.className} ${styles.cardNumber}`}>03</div>
                     <div className={`${Lighthaus.className} ${styles.cardName}`}>
-                        дижестив -<br className={styles.break}/>
+                        Соло Саши <br className={styles.break}/>
                         <span className={`${Lighthaus.className} ${styles.cardNameSpan}`}>
-                            хораоке, After party
+                            кьянти
                         </span>
                     </div>
                 </div>
