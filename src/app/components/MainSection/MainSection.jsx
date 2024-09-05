@@ -14,7 +14,7 @@ const MainSection = () => {
         <section className={styles.mainSection}>
 
             <div className={styles.leftImageContainer}>
-                <Image className={styles.leftImage} width={542} height={665} src="/LeftImage.jpg" alt="Left image"/>
+                <Image className={styles.leftImage} width={542} height={665} src="https://fytebit.github.io/ChiantiWebsite/LeftImage.jpg" alt="Left image"/>
             </div>
 
             <div className={styles.contentContainer}>
