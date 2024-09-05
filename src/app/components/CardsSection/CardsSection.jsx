@@ -30,7 +30,7 @@ const CardSection = () => {
                 <div className={styles.cardTextContainer}>
                     <div className={`${SFProDisplay.className} ${styles.cardNumber}`}>02</div>
                     <div className={`${Lighthaus.className} ${styles.cardName}`}>
-                        Караоке с <br className={styles.break}/>
+                        Хараоке с <br className={styles.break}/>
                         <span className={`${Lighthaus.className} ${styles.cardNameSpan}`}>
                             кьянти
                         </span>
@@ -53,7 +53,7 @@ const CardSection = () => {
                         </span>
                     </div>
                 </div>
-                <Image width={335} height={398}  src="./Photo3.png" className={styles.cardImage} alt={"Photo"}/>
+                <Image width={335} height={398}  src="./Photo4.png" className={styles.cardImage} alt={"Photo"}/>
                 <button className={`${SFProDisplay.className} ${styles.moreDetails}`}>
                     Подробнее
                     <ArrowIco className={styles.moreDetailsArrow}/>
