@@ -60,7 +60,7 @@ const CardSection = () => {
                 </button>
             </div>
 
-            <div className={styles.cardContainer}>
+            /*<div className={styles.cardContainer}>
                 <div className={styles.cardTextContainer}>
                     <div className={`${SFProDisplay.className} ${styles.cardNumber}`}>04</div>
                     <div className={`${Lighthaus.className} ${styles.cardName}`}>
@@ -75,7 +75,7 @@ const CardSection = () => {
                     Подробнее
                     <ArrowIco className={styles.moreDetailsArrow}/>
                 </button>
-            </div>
+            </div>*/
         </section>
     );
 };
