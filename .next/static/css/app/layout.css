@@ -1,0 +1,235 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/globals.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  --dark-theme-color: #131313;
+  --dark-theme-text-color: #E1DFE0;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+}
+
+
+html{
+}
+
+body{
+  background-color: var(--dark-theme-color);
+  color: var(--dark-theme-text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"src\\components\\NavigationBar\\NavigationBar.jsx","import":"","arguments":[{"src":"./font/nexa-script-8.ttf"}],"variableName":"nexaScriptFont"} ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: '__nexaScriptFont_f2e6c2';
+src: url(/_next/static/media/d0212a7544f1d0e3-s.p.ttf) format('truetype');
+font-display: swap;
+}@font-face {font-family: '__nexaScriptFont_Fallback_f2e6c2';src: local("Arial");ascent-override: 98.46%;descent-override: 32.24%;line-gap-override: 0.00%;size-adjust: 91.81%
+}.__className_f2e6c2 {font-family: '__nexaScriptFont_f2e6c2', '__nexaScriptFont_Fallback_f2e6c2'
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/NavigationBar/NavigationBar.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************/
+@media (min-width: 1440px) {
+    .NavigationBar_header__TtOuT {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-top: 2px solid #242424;
+        border-bottom: 2px solid #242424;
+        display: flex;
+        justify-content: center;
+    }
+
+    .NavigationBar_navBar__xnnjd {
+        width: 1440px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 33px;
+    }
+
+    .NavigationBar_logo__Ip3Jf {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .NavigationBar_logoText__S4yyX {
+        font-size: 28px;
+        font-weight: 300;
+        color: #E1DFE0;
+    }
+
+    .NavigationBar_burgerMenu__pEWfu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 25px;
+        cursor: pointer;
+    }
+
+    .NavigationBar_bar__Jqo27 {
+        height: 2px;
+        background-color: #C0C0C0;
+        margin: 2.5px 0;
+        border-radius: 30%;
+    }
+
+    .NavigationBar_bar1__NDaW1 {
+        width: 20px;
+    }
+
+    .NavigationBar_bar2__pIJYy {
+        width: 25px;
+    }
+
+    .NavigationBar_bar3__Y_zCC {
+        width: 15px;
+    }
+}
+
+
+@media (min-width: 1280px) and (max-width: 1440px) {
+    .NavigationBar_header__TtOuT {
+        width: 100%;
+        margin-top: 16px;
+        margin-bottom: 32px;
+        border-top: 2px solid #242424;
+        border-bottom: 2px solid #242424;
+        display: flex;
+        justify-content: center;
+    }
+
+    .NavigationBar_navBar__xnnjd {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10vw;
+    }
+
+    .NavigationBar_logo__Ip3Jf {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .NavigationBar_logoText__S4yyX {
+        font-size: 28px;
+        font-weight: 300;
+        color: #E1DFE0;
+    }
+
+    .NavigationBar_burgerMenu__pEWfu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 25px;
+        cursor: pointer;
+    }
+
+    .NavigationBar_bar__Jqo27 {
+        height: 2px;
+        background-color: #C0C0C0;
+        margin: 2.5px 0;
+        border-radius: 30%;
+    }
+
+    .NavigationBar_bar1__NDaW1 {
+        width: 20px;
+    }
+
+    .NavigationBar_bar2__pIJYy {
+        width: 25px;
+    }
+
+    .NavigationBar_bar3__Y_zCC {
+        width: 15px;
+    }
+}
+
+
+@media (min-width: 360px) and (max-width: 768px) {
+    .NavigationBar_header__TtOuT {
+        width: 100%;
+        border-top: 2px solid #242424;
+        border-bottom: 2px solid #242424;
+        display: flex;
+        justify-content: center;
+    }
+
+    .NavigationBar_navBar__xnnjd {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 16px;
+    }
+
+    .NavigationBar_logo__Ip3Jf {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .NavigationBar_logoText__S4yyX {
+        font-size: 28px;
+        font-weight: 300;
+        color: #E1DFE0;
+    }
+
+    .NavigationBar_burgerMenu__pEWfu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 25px;
+    }
+
+    .NavigationBar_bar__Jqo27 {
+        height: 3px;
+        background-color: #C0C0C0;
+        margin: 3px 0;
+        border-radius: 5px;
+    }
+
+    .NavigationBar_bar1__NDaW1 {
+        width: 23px;
+    }
+
+    .NavigationBar_bar2__pIJYy {
+        width: 30px;
+    }
+
+    .NavigationBar_bar3__Y_zCC {
+        width: 18px;
+    }
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/components/ui/logos/menuLogo/MenuLogo.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.MenuLogo{
+    width: 85px;
+    height: 33px;
+}

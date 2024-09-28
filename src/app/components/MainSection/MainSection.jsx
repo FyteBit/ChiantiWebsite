@@ -6,6 +6,7 @@ import Image from "next/image";
 import ChiantiLogo from "@/components/ui/ChiantiLogo/ChiantiLogo";
 import ChiantiLogoArrow from "@/components/ui/ChiantiLogoArrow/ChiantiLogoArrow";
 import localFont from "next/font/local";
+import Link from "next/link";
 
 const SFProDisplay = localFont({ src: '../fonts/SF-Pro.ttf' })
 
@@ -30,9 +31,9 @@ const MainSection = () => {
                 </div>
                 <button className={styles.actionButton}>Связаться</button>
                 <div className={styles.socialIcons}>
-                    <TelegramIcon/>
-                    <InstagramIcon/>
-                    <WhatsappIcon/>
+                    <Link href="https://t.me/chiprussia"><TelegramIcon/></Link>
+                    <Link href="https://www.instagram.com/kudri_ky/"><InstagramIcon/></Link>
+                    <Link href="https://wa.me/+79151534188"><WhatsappIcon/></Link>
                 </div>
             </div>
 
