@@ -19,7 +19,7 @@ const CardSection = () => {
                         </span>
                     </div>
                 </div>
-                <Image width={335} height={398}  src="./Photo1.png" className={styles.cardImage} alt={"Photo"}/>
+                <Image width={450} height={398}  src="/Photo1.png" className={styles.cardImage} alt={"Photo"}/>
                 <button className={`${SFProDisplay.className} ${styles.moreDetails}`}>
                     Подробнее
                     <ArrowIco className={styles.moreDetailsArrow}/>
@@ -36,7 +36,7 @@ const CardSection = () => {
                         </span>
                     </div>
                 </div>
-                <Image width={335} height={398}  src="./Photo2.png" className={styles.cardImage} alt={"Photo"}/>
+                <Image width={335} height={398}  src="/Photo2.png" className={styles.cardImage} alt={"Photo"}/>
                 <button className={`${SFProDisplay.className} ${styles.moreDetails}`}>
                     Подробнее
                     <ArrowIco className={styles.moreDetailsArrow}/>
@@ -53,7 +53,7 @@ const CardSection = () => {
                         </span>
                     </div>
                 </div>
-                <Image width={335} height={398}  src="./Photo4.png" className={styles.cardImage} alt={"Photo"}/>
+                <Image width={335} height={398}  src="/Photo4.png" className={styles.cardImage} alt={"Photo"}/>
                 <button className={`${SFProDisplay.className} ${styles.moreDetails}`}>
                     Подробнее
                     <ArrowIco className={styles.moreDetailsArrow}/>
