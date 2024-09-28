@@ -1,0 +1,799 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+
+
+@media (min-width: 1440px) {
+  .page_main__GlU4n {
+    width: 1440px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 400;
+    line-height: 27.34px;
+    letter-spacing: 0.13519692420959473px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1440px) {
+  .page_main__GlU4n {
+    padding: 0 35px;
+    width: 100%;
+    font-weight: 400;
+    line-height: 27.34px;
+    letter-spacing: 0.13519692420959473px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1280px) {
+  .page_main__GlU4n {
+    width: 100%;
+    font-weight: 400;
+    line-height: 27.34px;
+    letter-spacing: 0.13519692420959473px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .page_main__GlU4n{
+    width: 100%;
+    font-weight: 400;
+    line-height: 27.34px;
+    letter-spacing: 0.13519692420959473px;
+  }
+
+}
+
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"src\\app\\components\\MainSection\\MainSection.jsx","import":"","arguments":[{"src":"../fonts/SF-Pro.ttf"}],"variableName":"SFProDisplay"} ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: '__SFProDisplay_4a3842';
+src: url(/_next/static/media/7ba63d3d46059782-s.p.ttf) format('truetype');
+font-display: swap;
+}@font-face {font-family: '__SFProDisplay_Fallback_4a3842';src: local("Arial");ascent-override: 101.50%;descent-override: 25.71%;line-gap-override: 0.00%;size-adjust: 93.80%
+}.__className_4a3842 {font-family: '__SFProDisplay_4a3842', '__SFProDisplay_Fallback_4a3842'
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/MainSection/MainSection.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************/
+@media (min-width: 1440px) {
+    .MainSection_mainSection__rXnz3 {
+        margin-top: 10px;
+        padding: 0 33px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        font-family: 'Inter', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .MainSection_leftImageContainer__w7gp8{
+        display: flex;
+        margin-right: 91px;
+    }
+
+    .MainSection_leftImage__NuCzv{
+        width: 450px;
+        height: 530px;
+
+    }
+
+    .MainSection_contentContainer__Fwrb_{
+        padding-right: 85px;
+    }
+
+    .MainSection_logoContainer__E3RnA{
+        display: flex;
+        flex-direction: column;
+        max-width: 700px;
+        max-height: 180px;
+    }
+    .MainSection_chiantiLogoArrow__Tf2W4{
+        align-self: flex-end;
+    }
+    .MainSection_chiantiLogo__LBxrX{
+    }
+
+    .MainSection_textContainer__1Zfxs{
+        margin-top: 78px;
+    }
+
+    .MainSection_bottomContainer__pIKTa{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .MainSection_contentText__ut9q2{
+        font-size: 27px;
+        color: #E1DFE0;
+    }
+
+    .MainSection_actionButton__WR1bU{
+        order: 2;
+        margin: 0 auto;
+        margin-top: 68px;
+        width: 188px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #DA2328;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        transition: all .2s linear;
+        cursor: pointer;
+        &:hover{
+            background-color: #a3181c;
+            transform: scale(1.1);
+        }
+    }
+
+
+    .MainSection_socialIcons__suZGz{
+        order: 1;
+        width: 132px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+
+}
+
+@media (min-width: 1280px) and (max-width: 1440px) {
+    .MainSection_mainSection__rXnz3 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 33px;
+        
+    }
+
+    .MainSection_leftImageContainer__w7gp8{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin-right: 50px;
+    }
+
+    .MainSection_leftImage__NuCzv{
+        width: 480px;
+        height: 100%;
+
+    }
+
+    .MainSection_contentContainer__Fwrb_{
+        max-width: 650px;
+    }
+
+    .MainSection_bottomContainer__pIKTa{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .MainSection_logoContainer__E3RnA{
+        display: flex;
+        flex-direction: column;
+        max-width: 550px;
+    }
+    .MainSection_chiantiLogoArrow__Tf2W4{
+        align-self: flex-end;
+        
+    }
+    .MainSection_chiantiLogo__LBxrX{
+        width: 480px;
+        height: 100%;
+    }
+
+    .MainSection_textContainer__1Zfxs{
+        margin-top: 78px;
+    }
+
+    .MainSection_contentText__ut9q2{
+        font-size: 27px;
+        color: #E1DFE0;
+    }
+
+    .MainSection_actionButton__WR1bU{
+        order: 2;
+        margin: 0 auto;
+        margin-top: 68px;
+        width: 188px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #DA2328;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        transition: all .2s linear;
+        cursor: pointer;
+        &:hover{
+            background-color: #a3181c;
+            transform: scale(1.1);
+        }
+    }
+
+
+    .MainSection_socialIcons__suZGz{
+        width: 132px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:1280px) {
+    .MainSection_mainSection__rXnz3 {
+        margin-top: 10px;
+        padding: 0 33px;
+        display: flex;
+        align-items: center;
+        
+        font-family: 'Inter', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        flex-direction: column-reverse;
+        
+    }
+
+    /* .leftImageContainer{ */
+        /* display: flex;
+        margin: auto 0;
+         */
+         .MainSection_leftImageContainer__w7gp8{
+            display: flex;
+        }
+    
+        .MainSection_leftImage__NuCzv{
+            position: absolute;
+            top: 70px;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 150%;
+            opacity: 45%;
+            margin-top: 30px;
+        }
+
+
+    .MainSection_contentContainer__Fwrb_{
+        margin: 0 auto;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+        
+    }
+
+    .MainSection_logoContainer__E3RnA{
+        display: flex;
+        flex-direction: column;
+        width: 460px;
+        max-height: 180px;
+        
+        
+    }
+    .MainSection_chiantiLogoArrow__Tf2W4{
+        align-self: flex-end;
+        max-width: 50px;
+    }
+    .MainSection_chiantiLogo__LBxrX{
+        max-width:410px;
+    }
+
+    .MainSection_textContainer__1Zfxs{
+        margin-top: 60px;
+        width: 80%;
+        text-align: center;
+        margin-left: 0;
+        
+    }
+
+    .MainSection_bottomContainer__pIKTa{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 50%;
+        
+    }
+
+    .MainSection_contentText__ut9q2{
+        font-size: 30px;
+
+        text-wrap: wrap;
+        color: #E1DFE0;
+    }
+
+    .MainSection_actionButton__WR1bU{
+        order: 1;
+        margin-top: 40px;
+        width: 188px;
+        height: 50px;
+        border-radius: 20px;
+        background-color: #DA2328;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        transition: all .2s linear;
+        cursor: pointer;
+        &:hover{
+            background-color: #a3181c;
+            transform: scale(1.1);
+        }
+    }
+
+
+    .MainSection_socialIcons__suZGz{
+        order: 1;
+        width: 100%;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+ 
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+    .MainSection_mainSection__rXnz3 {
+        padding: 0 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .MainSection_leftImageContainer__w7gp8{
+        display: flex;
+    }
+
+    .MainSection_leftImage__NuCzv{
+        width: 100vw;
+        height: 100%;
+        opacity: 45%;
+
+    }
+
+    .MainSection_contentContainer__Fwrb_{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .MainSection_logoContainer__E3RnA {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 2;
+        padding: 0 16px;
+    }
+    .MainSection_chiantiLogoArrow__Tf2W4{
+        align-self: flex-end;
+        width: 10vw;
+        height: 8vw;
+    }
+    .MainSection_chiantiLogo__LBxrX{
+        margin-top: 8px;
+        width: 75vw;
+        height: 100%;
+    }
+
+    .MainSection_textContainer__1Zfxs{
+        margin-top: 16px;
+    }
+
+    .MainSection_contentText__ut9q2{
+        font-size: 16px;
+        color: #E1DFE0;
+    }
+
+    .MainSection_actionButton__WR1bU{
+        margin-top: 32px;
+        width: 188px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #DA2328;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        transition: all .2s linear;
+        &:active{
+            background-color: #a3181c;
+            transform: scale(1.1);
+        }
+    }
+
+
+    .MainSection_socialIcons__suZGz{
+        width: 100%;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 32px;
+    }
+
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/ui/icons/WhatsapIcon/WhatsappIcon.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************/
+.WhatsappIcon_container__h01_9{
+    width: 35px;
+    height: 35px;
+    background-color: inherit;
+    .WhatsappIcon_inner__tRfP3{
+        border-radius: 100%;
+        border: 2px solid grey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 89%;
+        height: 89%;
+        
+        .WhatsappIcon_img__zTqCL{
+            width: 15.8px;
+            height: 15.8px;
+        }
+    }
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"src\\app\\components\\CardsSection\\CardsSection.jsx","import":"","arguments":[{"src":"../fonts/SF-Pro.ttf"}],"variableName":"SFProDisplay"} ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: '__SFProDisplay_4a3842';
+src: url(/_next/static/media/7ba63d3d46059782-s.p.ttf) format('truetype');
+font-display: swap;
+}@font-face {font-family: '__SFProDisplay_Fallback_4a3842';src: local("Arial");ascent-override: 101.50%;descent-override: 25.71%;line-gap-override: 0.00%;size-adjust: 93.80%
+}.__className_4a3842 {font-family: '__SFProDisplay_4a3842', '__SFProDisplay_Fallback_4a3842'
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"src\\app\\components\\CardsSection\\CardsSection.jsx","import":"","arguments":[{"src":"../fonts/Lighthaus.ttf"}],"variableName":"Lighthaus"} ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: '__Lighthaus_396c36';
+src: url(/_next/static/media/d544f220a892e6a4-s.p.ttf) format('truetype');
+font-display: swap;
+}@font-face {font-family: '__Lighthaus_Fallback_396c36';src: local("Arial");ascent-override: 68.98%;descent-override: 18.61%;line-gap-override: 5.80%;size-adjust: 138.03%
+}.__className_396c36 {font-family: '__Lighthaus_396c36', '__Lighthaus_Fallback_396c36'
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/CardsSection/CardsSection.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************/
+
+
+@media (min-width: 1440px) {
+    .CardsSection_cardsSection__XrZgn {
+        padding: 0 33px;
+        margin-top: 55px;
+        display: flex;
+        gap: 0 11px;
+    }
+
+    .CardsSection_cardContainer__WD153 {
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .CardsSection_cardTextContainer__sdvpV {
+        font-size: 20px;
+        width: 100%;
+        height: 46px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        gap: 0 12.5px;
+        margin-bottom: 22px;
+        font-family: 'Lighthaus', Arial, sans-serif;
+        font-weight: 400;
+    }
+
+    .CardsSection_cardNumber__1vDLG {
+        font-weight: 400;
+        font-size: 55px;
+        opacity: 20%;
+        align-self: center;
+    }
+
+    .CardsSection_cardName__Nh4fr {
+        text-align: start;
+        margin-top: 0;
+        color: #E1DFE0;
+    }
+    .CardsSection_break__YaeIy{
+        display: block;
+    }
+
+    .CardsSection_cardNameSpan__A3RgA {
+        margin-bottom: 45px;
+        color: #C7492A;
+    }
+
+    .CardsSection_cardImage__aNeQD {
+        border: none;
+        width: 350px;
+        margin-bottom: 13px;
+    }
+
+    .CardsSection_moreDetails__EhdSE {
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: none;
+        color: rgba(225, 223, 224, 0.8);
+        width: 335px;
+        height: 55px;
+        border-radius: 500px;
+        border: 2px solid #474747;
+        margin-top: 13px;
+        margin-bottom: 180px;
+    }
+
+    .CardsSection_moreDetailsArrow__tOqTt {
+        margin-left: 9px;
+    }
+}
+
+
+@media (min-width: 1280px) and (max-width: 1440px) {
+    .CardsSection_cardsSection__XrZgn {
+        width: 100vw;
+        padding: 0 33px;
+        margin-top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .CardsSection_cardContainer__WD153 {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .CardsSection_cardTextContainer__sdvpV {
+        font-size: 25px;
+        
+        height: 46px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        gap: 0 12.5px;
+        margin-bottom: 16px;
+    }
+
+    .CardsSection_cardNumber__1vDLG {
+        font-weight: 400;
+        opacity: 20%;
+        font-size: 50px;
+        align-self: center;
+    }
+
+    .CardsSection_cardName__Nh4fr {
+        text-align: start;
+        margin-top: 0;
+        color: #E1DFE0;
+    }
+    .CardsSection_break__YaeIy{
+        /* display: none; */
+    }
+
+    .CardsSection_cardNameSpan__A3RgA {
+        margin-bottom: 16px;
+        color: #C7492A;
+    }
+
+    .CardsSection_cardNameSpan__A3RgA::before {
+        content: ' ';
+    }
+
+    .CardsSection_cardImage__aNeQD {
+        border: none;
+        width: 350px;
+        height: 100%;
+        margin-bottom: 0px;
+    }
+
+    .CardsSection_moreDetails__EhdSE {
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: none;
+        color: rgba(225, 223, 224, 0.8);
+        width: 350px;
+        height: 55px;
+        border-radius: 500px;
+        border: 2px solid #474747;
+        margin-top: 16px;
+        margin-bottom: 180px;
+    }
+
+    .CardsSection_moreDetailsArrow__tOqTt {
+        margin-left: 9px;
+    }
+}
+
+@media (min-width: 760px) and (max-width: 1280px) {
+    .CardsSection_cardsSection__XrZgn {
+        width: 100vw;
+        padding: 0 33px;
+        margin-top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        margin-top: 450px;
+    }
+
+    .CardsSection_cardContainer__WD153 {
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .CardsSection_cardTextContainer__sdvpV {
+        font-size: 25px;
+        height: 46px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        gap: 0 12.5px;
+        margin-bottom: 16px;
+    }
+
+    .CardsSection_cardNumber__1vDLG {
+        font-weight: 400;
+        opacity: 20%;
+        font-size: 50px;
+        align-self: center;
+    }
+
+    .CardsSection_cardName__Nh4fr {
+        text-align: center;
+        margin: auto 0;
+        color: #E1DFE0;
+    }
+    .CardsSection_break__YaeIy{
+        display: none;
+    }
+
+    .CardsSection_cardNameSpan__A3RgA {
+        margin-bottom: 16px;
+        color: #C7492A;
+    }
+
+    .CardsSection_cardNameSpan__A3RgA::before {
+        content: ' ';
+    }
+
+    .CardsSection_cardImage__aNeQD {
+        border: none;
+        width: 50vw;
+        height: 100%;
+        margin-bottom: 0px;
+    }
+
+    .CardsSection_moreDetails__EhdSE {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        font-weight: 400;
+        text-decoration: none;
+        color: rgba(225, 223, 224, 0.8);
+        width: 100%;
+        height: 60px;
+        border-radius: 500px;
+        border: 2px solid #474747;
+        margin-top: 16px;
+        margin-bottom: 180px;
+    }
+
+    .CardsSection_moreDetailsArrow__tOqTt {
+        margin-left: 15px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+    .CardsSection_cardsSection__XrZgn {
+        padding: 0 16px;
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 0 11px;
+    }
+
+    .CardsSection_cardContainer__WD153 {
+
+    }
+
+
+    .CardsSection_cardTextContainer__sdvpV {
+        font-size: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        gap: 0 12.5px;
+        margin-bottom: 22px;
+    }
+
+    .CardsSection_cardNumber__1vDLG {
+        font-weight: 400;
+        opacity: 20%;
+    }
+
+    .CardsSection_cardName__Nh4fr {
+        text-align: start;
+        margin-top: 0;
+        color: #E1DFE0;
+    }
+
+    .CardsSection_break__YaeIy{
+        display: none;
+    }
+
+    .CardsSection_cardNameSpan__A3RgA {
+        margin-bottom: 16px;
+        color: #C7492A;
+    }
+    .CardsSection_cardNameSpan__A3RgA::before {
+        content: ' ';
+    }
+
+    .CardsSection_cardImage__aNeQD {
+        border: none;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 16px;
+    }
+
+    .CardsSection_moreDetails__EhdSE {
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: none;
+        color: rgba(225, 223, 224, 0.8);
+        width: 100%;
+        height: 55px;
+        border-radius: 500px;
+        border: 2px solid #474747;
+        margin-top: 13px;
+        margin-bottom: 32px;
+    }
+
+    .CardsSection_moreDetailsArrow__tOqTt {
+        margin-left: 9px;
+    }
+}

@@ -65,9 +65,10 @@
     .header {
         width: 100%;
         margin-top: 16px;
-        margin-bottom: 32px;
-        border-top: 2px solid #242424;
-        border-bottom: 2px solid #242424;
+        margin-top: 1.5vh;
+        margin-bottom: 15px;
+        border-top: 4px solid rgba(255, 255, 255, 0.35);
+        border-bottom: 4px solid rgba(255, 255, 255, 0.35);
         display: flex;
         justify-content: center;
     }
@@ -84,11 +85,10 @@
     .logo {
         display: flex;
         justify-content: left;
-        align-items: center;
     }
 
     .logoText {
-        font-size: 28px;
+        font-size: 35px;
         font-weight: 300;
         color: #E1DFE0;
     }
@@ -190,6 +190,10 @@
         border-bottom: 2px solid #242424;
         display: flex;
         justify-content: center;
+        margin-top: 1.5vh;
+        margin-bottom: 15px;
+        border-top: 4px solid rgba(255, 255, 255, 0.35);
+        border-bottom: 4px solid rgba(255, 255, 255, 0.35);
     }
 
     .navBar {

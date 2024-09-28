@@ -162,10 +162,13 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        margin-top: 450px;
     }
 
     .cardContainer {
-        width: 400px;
+        width: 50vw;
         display: flex;
         flex-direction: column;
     }
@@ -173,7 +176,6 @@
 
     .cardTextContainer {
         font-size: 25px;
-        
         height: 46px;
         display: flex;
         align-items: flex-start;
@@ -191,12 +193,12 @@
     }
 
     .cardName {
-        text-align: start;
-        margin-top: 0;
+        text-align: center;
+        margin: auto 0;
         color: #E1DFE0;
     }
     .break{
-        /* display: none; */
+        display: none;
     }
 
     .cardNameSpan {
@@ -210,18 +212,21 @@
 
     .cardImage {
         border: none;
-        width: 350px;
+        width: 50vw;
         height: 100%;
         margin-bottom: 0px;
     }
 
     .moreDetails {
-        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
         font-weight: 400;
         text-decoration: none;
         color: rgba(225, 223, 224, 0.8);
-        width: 350px;
-        height: 55px;
+        width: 100%;
+        height: 60px;
         border-radius: 500px;
         border: 2px solid #474747;
         margin-top: 16px;
@@ -229,7 +234,7 @@
     }
 
     .moreDetailsArrow {
-        margin-left: 9px;
+        margin-left: 15px;
     }
 }
 
