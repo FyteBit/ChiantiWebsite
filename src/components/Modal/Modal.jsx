@@ -1,9 +1,9 @@
-import "./Modal.css"
+import styles from "./Modal.module.css"
 
 const Modal = ({active, setActive, children}) => {
     return(
-        <div className={active ? "modal active":"modal"} onClick={()=>setActive(false)}>
-        <div className="modal-content">{children}</div>
+        <div className={active ? `${styles.modal} ${styles.active}` : styles.modal} onClick={()=>setActive(false)}>
+        <div className={styles.modalContent}>{children}</div>
         </div>
         )
 };

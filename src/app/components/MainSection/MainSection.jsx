@@ -11,6 +11,7 @@ import localFont from "next/font/local";
 import Link from "next/link";
 import Modal from "@/components/Modal/Modal";
 import { useState } from "react";
+import Form from "../Form/Form";
 
 
 
@@ -46,7 +47,7 @@ const MainSection = () => {
                 </div>
 
                 <Modal active={formActive} setActive={setFormActive}>
-                    <p>loremdecncidncio conceionciowjec cencoiwnconc</p>
+                    <Form/>
                 </Modal>
             </div>
 
