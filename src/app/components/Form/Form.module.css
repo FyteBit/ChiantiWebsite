@@ -1,0 +1,30 @@
+.container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.name{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 2vw;
+    margin-top: 40px;
+}
+
+.number{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 2vw;
+}
+
+.comment{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 2vw;
+}

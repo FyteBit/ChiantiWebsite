@@ -20,7 +20,7 @@ const SFProDisplay = localFont({ src: '../fonts/SF-Pro.ttf' })
 const MainSection = () => {
     const [formActive, setFormActive] = useState(false)
     return (
-
+        <>
         <section className={styles.mainSection}>
 
             <div className={styles.leftImageContainer}>
@@ -45,13 +45,14 @@ const MainSection = () => {
                     <Link href="https://wa.me/+79151534188"><WhatsappIcon/></Link>
                 </div>
                 </div>
-
-                <Modal active={formActive} setActive={setFormActive}>
-                    <Form/>
-                </Modal>
             </div>
 
         </section>
+        
+        <Modal active={formActive} setActive={setFormActive}>
+            <Form/>
+        </Modal>
+        </>
     );
 };
 
