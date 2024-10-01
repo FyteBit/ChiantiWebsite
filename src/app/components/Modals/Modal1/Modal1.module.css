@@ -62,7 +62,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 80vh;
         width: 100vw;
     }
     
@@ -70,7 +70,7 @@
         margin-bottom: 20px;
         margin-left: 0;
         width: 50vw;
-        height: 7y0vw;
+        height: 70vw;
     }
     
     .h2{
