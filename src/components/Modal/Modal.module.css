@@ -5,7 +5,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     opacity: 0;
@@ -31,6 +31,6 @@
 }
 
 .modal.active{
-    display: flex;
+    opacity: 1;
     pointer-events: all;
 }
