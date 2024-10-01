@@ -1,13 +1,17 @@
+
+
 @media (min-width: 1440px) {
     .cardsSection {
         padding: 0 33px;
-        margin-top: 113px;
+        margin-top: 55px;
         display: flex;
         gap: 0 11px;
     }
 
     .cardContainer {
-
+        width: 450px;
+        display: flex;
+        flex-direction: column;
     }
 
 
@@ -21,11 +25,16 @@
         flex-wrap: nowrap;
         gap: 0 12.5px;
         margin-bottom: 22px;
+        font-family: 'Lighthaus', Arial, sans-serif;
+        font-weight: 400;
     }
 
     .cardNumber {
         font-weight: 400;
+        font-size: 55px;
         opacity: 20%;
+        align-self: center;
+        z-index: -1;
     }
 
     .cardName {
@@ -44,8 +53,7 @@
 
     .cardImage {
         border: none;
-        width: 335px;
-        height: 396px;
+        width: 350px;
         margin-bottom: 13px;
     }
 
@@ -70,7 +78,8 @@
 
 @media (min-width: 1280px) and (max-width: 1440px) {
     .cardsSection {
-        padding: 0 10vw;
+        width: 100vw;
+        padding: 0 33px;
         margin-top: 80px;
         display: flex;
         align-items: center;
@@ -78,13 +87,15 @@
     }
 
     .cardContainer {
-
+        width: 400px;
+        display: flex;
+        flex-direction: column;
     }
 
 
     .cardTextContainer {
-        font-size: 20px;
-        width: 20vw;
+        font-size: 25px;
+        
         height: 46px;
         display: flex;
         align-items: flex-start;
@@ -97,11 +108,94 @@
     .cardNumber {
         font-weight: 400;
         opacity: 20%;
+        font-size: 50px;
+        align-self: center;
     }
 
     .cardName {
         text-align: start;
         margin-top: 0;
+        color: #E1DFE0;
+    }
+    .break{
+        /* display: none; */
+    }
+
+    .cardNameSpan {
+        margin-bottom: 16px;
+        color: #C7492A;
+    }
+
+    .cardNameSpan::before {
+        content: ' ';
+    }
+
+    .cardImage {
+        border: none;
+        width: 350px;
+        height: 100%;
+        margin-bottom: 0px;
+    }
+
+    .moreDetails {
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: none;
+        color: rgba(225, 223, 224, 0.8);
+        width: 350px;
+        height: 55px;
+        border-radius: 500px;
+        border: 2px solid #474747;
+        margin-top: 16px;
+        margin-bottom: 180px;
+    }
+
+    .moreDetailsArrow {
+        margin-left: 9px;
+    }
+}
+
+@media (min-width: 760px) and (max-width: 1280px) {
+    .cardsSection {
+        width: 100vw;
+        padding: 0 33px;
+        margin-top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        margin-top: 100px;
+    }
+
+    .cardContainer {
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .cardTextContainer {
+        font-size: 25px;
+        height: 46px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        gap: 0 12.5px;
+        margin-bottom: 16px;
+    }
+
+    .cardNumber {
+        font-weight: 400;
+        opacity: 20%;
+        font-size: 50px;
+        align-self: center;
+    }
+
+    .cardName {
+        text-align: center;
+        margin: auto 0;
         color: #E1DFE0;
     }
     .break{
@@ -119,18 +213,21 @@
 
     .cardImage {
         border: none;
-        width: 19vw;
+        width: 50vw;
         height: 100%;
         margin-bottom: 0px;
     }
 
     .moreDetails {
-        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
         font-weight: 400;
         text-decoration: none;
         color: rgba(225, 223, 224, 0.8);
-        width: 19vw;
-        height: 55px;
+        width: 100%;
+        height: 60px;
         border-radius: 500px;
         border: 2px solid #474747;
         margin-top: 16px;
@@ -138,7 +235,7 @@
     }
 
     .moreDetailsArrow {
-        margin-left: 9px;
+        margin-left: 15px;
     }
 }
 
