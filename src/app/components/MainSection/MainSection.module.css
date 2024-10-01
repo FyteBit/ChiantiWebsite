@@ -175,7 +175,7 @@
 
 }
 
-@media (min-width:768px) and (max-width:1280px) {
+@media (min-width:760px) and (max-width:1280px) {
     .mainSection {
         height: 100vh;
         padding: 0 25px;
@@ -184,7 +184,7 @@
         font-family: 'Inter', Arial, sans-serif;
         font-size: 20px;
         font-weight: 400;
-        
+        /* justify-content: space-between; */
         
     }
 
@@ -222,6 +222,7 @@
         flex-direction: column;
         width: 460px;
         max-height: 180px;
+        margin: 0 auto;
         
         
     }
@@ -231,10 +232,11 @@
     }
     .chiantiLogo{
         max-width:410px;
+
     }
 
     .textContainer{
-        margin-top: 60px;
+        margin-top: 70px;
         width: 80%;
         text-align: center;
         margin-left: 0;
@@ -289,7 +291,7 @@
  
 }
 
-@media (min-width: 360px) and (max-width: 768px) {
+@media (min-width: 360px) and (max-width: 760px) {
     .mainSection {
         padding: 0 16px;
         display: flex;
@@ -324,7 +326,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        z-index: 2;
         padding: 0 16px;
     }
     .chiantiLogoArrow{
@@ -348,6 +349,7 @@
     }
 
     .actionButton{
+        margin: 0 auto;
         margin-top: 32px;
         width: 188px;
         height: 50px;

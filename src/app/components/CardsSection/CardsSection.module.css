@@ -34,6 +34,7 @@
         font-size: 55px;
         opacity: 20%;
         align-self: center;
+        z-index: -1;
     }
 
     .cardName {

@@ -17,9 +17,17 @@
 .modalContent{
     padding: 20px;
     border-radius: 10px;
-    background-color: rgb(35, 34, 34);
+    /* background-color: rgb(35, 34, 34); */
+    background-color: black;
     color: white;
-    z-index: 1;
+    z-index: 10;
+    transition: .5s;
+    opacity: 1;
+}
+
+.modalContent.active{
+    border-radius: 20px;
+   
 }
 
 .modal.active{
